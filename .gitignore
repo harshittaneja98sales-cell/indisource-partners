@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.next/
+.vinext/
+.tmp/
+screenshots/
+next-env.d.ts
+*.tgz
+*.tar
+*.tar.gz
