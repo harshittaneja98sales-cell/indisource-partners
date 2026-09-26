@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
-    "postbuild": "node scripts/copy-hosting-meta.mjs",
+    "postbuild": "node scripts/copy-hosting-meta.mjs && node scripts/build-static.mjs",
     "start": "vinext start"
   },
   "dependencies": {
